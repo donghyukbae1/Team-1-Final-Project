@@ -1,0 +1,22 @@
+This character is currently referred to as BOR (Battery-Operated Robot) 
+because I don't know what his true function is.
+To import BOR.fbx:
+-click Import
+-make sure checkboxes for "Skeletal Mesh" and "Import Mesh" are checked
+-check the box "Use TOAs Ref Pose"
+-make sure the box "Preserve Smoothing Group" is checked
+-make sure the box "Meshes in Bone" is checked
+-everything else I believe is supposed to be the same
+-click Import All
+
+To import BOR_anim_.fbx:
+-click Import
+-In the Mesh section, under skeleton, click the scroll bar and select BOR_Skeleton
+-Make sure Animation Length is "Exported Time"
+-Leave everything else the same
+-click Import All
+
+*His run animation has a bit of a jitter every second step. I'll continue working 
+on it to see if I can improve it, but I figure something is better than nothing 
+right now. I'm also going to make a BOR_anim_runjump.fbx and a BOR_anim_walk.fbx.
+
